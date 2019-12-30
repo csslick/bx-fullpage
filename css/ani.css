@@ -1,0 +1,59 @@
+.s1 .container,
+.s2 .container,
+.s3 .container,
+.s4 .container {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+/* css animation */
+.fade-slide-down {
+  animation-name: fade-slide-down;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.fade-slide-right {
+  animation-name: fade-slide-right;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.ani-delay_1 {
+  animation-delay: 1s;
+}
+.ani-delay_1_5 {
+  animation-delay: 1.5s;
+}
+.ani-delay_2 {
+  animation-delay: 2s;
+}
+
+@keyframes fade-slide-down {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-slide-right {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

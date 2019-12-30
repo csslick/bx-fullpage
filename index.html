@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <title>bxslider fullpage</title>
+  <link rel="shortcut icon" href="https://freeicons.io/laravel/public/uploads/icons/png/6499979791535801675-512.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="css/ani.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/42bc809b80.js"></script>
+  <!-- 마우스 휠 이벤트 -->
+  <script src="bender/jquery.mousewheel.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <!-- 
+    *** 레퍼런스 사이트 ***
+    KG에듀원: http://www.kgeduone.com
+    디케이지 홀딩스: http://www.dkgholdings.co.kr
+    동국제강: http://www.dongkuk.com/ko/index
+    톰보이:  https://www.studiotomboy.com/ko/main
+    salta: https://salta-hd.jp/.ko/
+  -->
+  <header>
+    <h1><a href="./">PORTFOLIO</a></h1>
+    <nav id="main-menu">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="btn-box">
+      <button id="toggle">MENU</button>
+    </div>
+  </header>
+
+  <div class="bxslider">
+    <section class="s1">
+      <div class="container">
+        <div class="caption">
+          <h2>WE WILL MAKE IT HAPPEN</h2>
+          <p class="sub-title">다양한 분야의 개발사업을 통해 <br> 고객만족을 실현하는 최고의 <strong>부동산 개발 전문기업</strong></p>
+        </div>
+    </section>
+
+    <section class="s2" id="ability">
+      <div class="container">
+        <h2>ABILITY</h2>
+        <p class="sub-title">최고의 전문가들이 시작부터 준공까지 참여하여 <br> 고객의 모든 요구를 가능하게 만드는 <strong>부동산 개발 전문기업</strong></p>
+        <ul class="icon_list">
+          <li>
+            <a href="#">
+              <i class="fas fa-sitemap"></i>
+              <div>
+                <h4>개발</h4>
+                <p>공동주택&주상복합&오피스텔, 도시개발사업, 택지개발지구 주택사업, 복합용도개발사업, 공모사업</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-sitemap"></i>
+              <div>
+                <h4>마케팅</h4>
+                <p>공동주택&주상복합&오피스텔, 도시개발사업, 택지개발지구 주택사업, 복합용도개발사업, 공모사업</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-poll"></i>
+              <div>
+                <h4>컨설팅</h4>
+                <p>공동주택&주상복합&오피스텔, 도시개발사업, 택지개발지구 주택사업, 복합용도개발사업, 공모사업</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="s3">
+      <div class="container">
+        <h2>PORTFOLIO</h2>
+        <p class="sub-title">최고의 부동산 개발 전문가들이 진행한 <br> <strong>최고의 결과물</strong></p>
+        <ul class="img_box">
+          <li>
+            <a href="#">
+              <img src="http://placeimg.com/280/200/11" alt="작품1">
+              <p>UI/UX Design</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://placeimg.com/280/200/12" alt="작품2">
+              <p>Homepage</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://placeimg.com/280/200/13" alt="작품3">
+              <p>Illustrator/Photoshop</p>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class='btn-more'>VIEW MORE</a>
+      </div>
+    </section>
+
+    <section class="s4">
+      <div class="container">
+        <h2>CONTACT</h2>
+        <p class="sub-title">다양한 경험을 통한 최적의 <br> <strong>개발 방안 제공</strong></p>
+        <a href="#" class='btn-more'>회사소개서</a>
+        <a href="#" class='btn-more'>문의하기</a>
+      </div>
+    </section>
+  </div><!-- end bx-->
+  <ul class="indicator"></ul>
+  
+  <footer id="main-footer">
+    <p class="copy">Copyright &copy 2019 Portfolio All rights reserved.</p>
+  </footer>
+</body>
+</html>
